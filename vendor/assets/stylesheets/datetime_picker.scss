@@ -1,3 +1,23 @@
+// Core variables and mixins
+@import "datetime_picker/variables";
+@import "datetime_picker/mixins";
+
+// Reset and dependencies
+@import "datetime_picker/glyphicons";
+
+// Core CSS
+@import "datetime_picker/tables";
+
+// Components
+@import "datetime_picker/component-animations";
+@import "datetime_picker/dropdowns";
+
+// Utility classes
+.pull-right {
+  float: right !important;
+}
+
+
 /*!
  * Datetimepicker for Bootstrap 3
  * version : 4.15.35
