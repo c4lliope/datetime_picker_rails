@@ -1,4 +1,4 @@
-# bootstrap3-datetimepicker-rails
+# datetime_picker_rails
 
 Forked from [TrevorS/bootstrap-datetimepicker-rails][original] on Sept 3, 2015.
 
@@ -19,7 +19,7 @@ for the Rails 3.1+ asset pipeline.
 Add these lines to your application's Gemfile:
 
 ```ruby
-gem "bootstrap3-datetimepicker-rails", github: "graysonwright/datetimepicker-rails"
+gem "datetime_picker_rails", github: "graysonwright/datetime_picker_rails"
 ```
 
 And then execute:
@@ -28,16 +28,13 @@ And then execute:
 $ bundle
 ```
 
-To start using the bootstrap-datetimepicker plugin in your Rails application,
-enable it via the asset pipeline.
-
 If your server is running,
 you will need to **restart Rails** before using the gem.
 
 Add the following to your JavaScript manifest file (`application.js`):
 ```js
 //= require moment
-//= require bootstrap-datetimepicker
+//= require datetime_picker
 ```
 
 If you want to include a localization, also add:
@@ -49,16 +46,12 @@ Add the following to your style sheet file:
 
 If you are using SCSS, modify your `application.css.scss`
 ```scss
-// import bootstrap-sprockets before bootstrap if using bootstrap >= 3.2
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
-@import 'bootstrap-datetimepicker';
+@import "datetime_picker";
 ```
 
 If you're using plain CSS, modify your `application.css`
 ```css
-*= require bootstrap
-*= require bootstrap-datetimepicker
+*= require datetime_picker
 ```
 
 ## Usage
