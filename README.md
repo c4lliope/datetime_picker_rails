@@ -1,36 +1,38 @@
 # bootstrap3-datetimepicker-rails
 
-[![Gem Version](https://badge.fury.io/rb/bootstrap3-datetimepicker-rails.png)](http://badge.fury.io/rb/bootstrap3-datetimepicker-rails)
+Forked from [TrevorS/bootstrap-datetimepicker-rails][original] on Sept 3, 2015.
 
-This gem packages the [bootstrap-datetimepicker](https://github.com/Eonasdan/bootstrap-datetimepicker) for the Rails 3.1+ asset pipeline.
+My goal is to make it not require [bootstrap-sass].
 
-Eonasdan's fork of tarruda's [bootstrap-datetimepicker](https://github.com/tarruda/bootstrap-datetimepicker) is
-actively maintained and works with [Bootstrap3](http://getbootstrap.com).
+[original]: https://github.com/TrevorS/bootstrap3-datetimepicker-rails
+[bootstrap-sass]: https://github.com/twbs/bootstrap-sass
 
-[momentjs-rails](https://github.com/derekprior/momentjs-rails) is a required dependency.
+- - -
+
+This gem packages the [bootstrap-datetimepicker]
+for the Rails 3.1+ asset pipeline.
+
+[bootstrap-datetimepicker]: https://github.com/Eonasdan/bootstrap-datetimepicker
 
 ## Installation
 
 Add these lines to your application's Gemfile:
+
 ```ruby
-gem 'momentjs-rails', '>= 2.9.0'
-gem 'bootstrap3-datetimepicker-rails', '~> 4.15.35'
+gem "bootstrap3-datetimepicker-rails", github: "graysonwright/datetimepicker-rails"
 ```
 
 And then execute:
+
 ```bash
 $ bundle
 ```
 
-Or install it yourself:
-```bash
-$ gem install momentjs-rails
-$ gem install bootstrap3-datetimepicker-rails
-```
+To start using the bootstrap-datetimepicker plugin in your Rails application,
+enable it via the asset pipeline.
 
-To start using the bootstrap-datetimepicker plugin in your Rails application, enable it via the asset pipeline.
-
-If your server is running, you will need to **restart Rails** before using the gem.
+If your server is running,
+you will need to **restart Rails** before using the gem.
 
 Add the following to your JavaScript manifest file (`application.js`):
 ```js
@@ -61,7 +63,8 @@ If you're using plain CSS, modify your `application.css`
 
 ## Usage
 
-Check out the documentation at: http://eonasdan.github.io/bootstrap-datetimepicker/
+Check out the documentation at:
+http://eonasdan.github.io/bootstrap-datetimepicker/
 
 ## Problems
 
