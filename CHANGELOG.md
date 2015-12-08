@@ -15,7 +15,9 @@
 
 ### Upcoming Release
 
-- [BUGFIX] Wrap month and year options so they fit within the cointaining div
+### 0.0.6 (December 08, 2015)
+
+- [#3] [BUGFIX] Wrap month and year options so they fit within the cointaining div
 - [DOC] Add a changelog
 
 ### 0.0.5 (October 25, 2015)
