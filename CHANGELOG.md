@@ -15,6 +15,10 @@
 
 ### Upcoming Release
 
+### 0.0.7 (January 20, 2016)
+
+- [#4] [COMPAT] Remove unnecessary `transition` and `box-shadow` mixins
+
 ### 0.0.6 (December 08, 2015)
 
 - [#3] [BUGFIX] Wrap month and year options so they fit within the cointaining div
